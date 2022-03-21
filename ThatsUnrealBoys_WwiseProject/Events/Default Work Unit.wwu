@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{85898BF1-9D4C-4D4A-9B0F-8A0C078E27C7}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{85898BF1-9D4C-4D4A-9B0F-8A0C078E27C7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_testy" ID="{58D2589C-5EA4-41BD-A496-EAA1F8A8F454}">
+					<ChildrenList>
+						<Action Name="" ID="{5EB997BD-AB72-41CE-8184-CCD75E2FDEDD}" ShortID="318456956">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="testy" ID="{BB2BC496-3264-4415-B6A4-997FE4732E66}" WorkUnitID="{89610E9C-90EC-477C-B4ED-ACB812AE5CC6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Troll" ID="{5AC56DA4-A65E-4DB0-98BF-1D85BEEBECF0}">
+					<Comment>Created in Unreal Engine 4 via WAAPI</Comment>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

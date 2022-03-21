@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>B:\ProgramData\_GitHub Repos\ThatsUnrealBoys\ThatsUnrealBoys\ThatsUnrealBoys_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>B:\ProgramData\_GitHub Repos\ThatsUnrealBoys\ThatsUnrealBoys\ThatsUnrealBoys_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>B:\ProgramData\_GitHub Repos\ThatsUnrealBoys\ThatsUnrealBoys\ThatsUnrealBoys_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>B:\ProgramData\_GitHub Repos\ThatsUnrealBoys\ThatsUnrealBoys\ThatsUnrealBoys_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="2394993889" GUID="{652628FF-4CB6-4A65-B0CD-918F89969007}" Language="SFX" Hash="4086240849">
+			<ObjectPath>\SoundBanks\Default Work Unit\Arthur_SFX</ObjectPath>
+			<ShortName>Arthur_SFX</ShortName>
+			<Path>Arthur_SFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3759155847" Name="Play_testy" ObjectPath="\Events\Default Work Unit\Play_testy" GUID="{58D2589C-5EA4-41BD-A496-EAA1F8A8F454}" DurationType="OneShot" DurationMin="0.106" DurationMax="0.148312">
+					<IncludedMemoryFiles>
+						<File Id="524782199" Language="SFX">
+							<ShortName>ContactMic_CrackRub_03.wav</ShortName>
+							<Path>SFX\ContactMic_CrackRub_03_10C4C929.wem</Path>
+						</File>
+						<File Id="612087491" Language="SFX">
+							<ShortName>ContactMic_CrackRub_04.wav</ShortName>
+							<Path>SFX\ContactMic_CrackRub_04_10C4C929.wem</Path>
+						</File>
+						<File Id="641723350" Language="SFX">
+							<ShortName>ContactMic_CrackRub_01.wav</ShortName>
+							<Path>SFX\ContactMic_CrackRub_01_10C4C929.wem</Path>
+						</File>
+						<File Id="760553221" Language="SFX">
+							<ShortName>ContactMic_CrackRub_02.wav</ShortName>
+							<Path>SFX\ContactMic_CrackRub_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="524782199" Language="SFX">
+					<ShortName>ContactMic_CrackRub_03.wav</ShortName>
+					<Path>SFX\ContactMic_CrackRub_03_10C4C929.wem</Path>
+				</File>
+				<File Id="612087491" Language="SFX">
+					<ShortName>ContactMic_CrackRub_04.wav</ShortName>
+					<Path>SFX\ContactMic_CrackRub_04_10C4C929.wem</Path>
+				</File>
+				<File Id="641723350" Language="SFX">
+					<ShortName>ContactMic_CrackRub_01.wav</ShortName>
+					<Path>SFX\ContactMic_CrackRub_01_10C4C929.wem</Path>
+				</File>
+				<File Id="760553221" Language="SFX">
+					<ShortName>ContactMic_CrackRub_02.wav</ShortName>
+					<Path>SFX\ContactMic_CrackRub_02_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3759155847	Play_testy			\Default Work Unit\Play_testy	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	524782199	ContactMic_CrackRub_03	B:\ProgramData\_GitHub Repos\ThatsUnrealBoys\ThatsUnrealBoys\ThatsUnrealBoys_WwiseProject\.cache\Windows\SFX\ContactMic_CrackRub_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Testy\testy\ContactMic_CrackRub_03		14302
+	612087491	ContactMic_CrackRub_04	B:\ProgramData\_GitHub Repos\ThatsUnrealBoys\ThatsUnrealBoys\ThatsUnrealBoys_WwiseProject\.cache\Windows\SFX\ContactMic_CrackRub_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Testy\testy\ContactMic_CrackRub_04		10240
+	641723350	ContactMic_CrackRub_01	B:\ProgramData\_GitHub Repos\ThatsUnrealBoys\ThatsUnrealBoys\ThatsUnrealBoys_WwiseProject\.cache\Windows\SFX\ContactMic_CrackRub_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Testy\testy\ContactMic_CrackRub_01		10240
+	760553221	ContactMic_CrackRub_02	B:\ProgramData\_GitHub Repos\ThatsUnrealBoys\ThatsUnrealBoys\ThatsUnrealBoys_WwiseProject\.cache\Windows\SFX\ContactMic_CrackRub_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Testy\testy\ContactMic_CrackRub_02		10240
+
