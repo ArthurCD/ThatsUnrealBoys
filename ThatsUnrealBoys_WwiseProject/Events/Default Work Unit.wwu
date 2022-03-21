@@ -8,7 +8,7 @@
 						<Action Name="" ID="{5EB997BD-AB72-41CE-8184-CCD75E2FDEDD}" ShortID="318456956">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="testy" ID="{BB2BC496-3264-4415-B6A4-997FE4732E66}" WorkUnitID="{89610E9C-90EC-477C-B4ED-ACB812AE5CC6}"/>
+									<ObjectRef Name="Testy" ID="{BB2BC496-3264-4415-B6A4-997FE4732E66}" WorkUnitID="{89610E9C-90EC-477C-B4ED-ACB812AE5CC6}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -16,6 +16,17 @@
 				</Event>
 				<Event Name="Troll" ID="{5AC56DA4-A65E-4DB0-98BF-1D85BEEBECF0}">
 					<Comment>Created in Unreal Engine 4 via WAAPI</Comment>
+				</Event>
+				<Event Name="Play_Water" ID="{90FF3646-0626-4DA2-AF41-38C7F12A5D02}">
+					<ChildrenList>
+						<Action Name="" ID="{4F2C84FA-36D9-4893-BFB3-F7675D7F2B91}" ShortID="155701246">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Water" ID="{8F6BCFC0-C934-41E0-A42D-B2D8E1F182FF}" WorkUnitID="{89610E9C-90EC-477C-B4ED-ACB812AE5CC6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
 				</Event>
 			</ChildrenList>
 		</WorkUnit>

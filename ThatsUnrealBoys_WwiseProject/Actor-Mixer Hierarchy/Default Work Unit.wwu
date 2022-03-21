@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{89610E9C-90EC-477C-B4ED-ACB812AE5CC6}" PersistMode="Standalone">
 			<ChildrenList>
-				<ActorMixer Name="Testy" ID="{9BAA6E7B-E5DB-4703-A0E4-CD268D866C0E}" ShortID="578251670">
+				<ActorMixer Name="GameMix" ID="{9BAA6E7B-E5DB-4703-A0E4-CD268D866C0E}" ShortID="578251670">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{836158DD-C4E7-4056-AA92-3059BEA36E66}"/>
@@ -13,7 +13,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<RandomSequenceContainer Name="testy" ID="{BB2BC496-3264-4415-B6A4-997FE4732E66}" ShortID="248375895">
+						<RandomSequenceContainer Name="Testy" ID="{BB2BC496-3264-4415-B6A4-997FE4732E66}" ShortID="248375895">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{836158DD-C4E7-4056-AA92-3059BEA36E66}"/>
@@ -116,6 +116,161 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Water" ID="{8F6BCFC0-C934-41E0-A42D-B2D8E1F182FF}" ShortID="865094570">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="1"/>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="SpeakerPanning" Type="int16" Value="2"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Water" ID="{E49030B7-D1B6-4543-9281-109B85B2730C}" WorkUnitID="{DCC578E1-6376-4063-A058-360C815B14E3}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{836158DD-C4E7-4056-AA92-3059BEA36E66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F662A6F8-008D-4048-AB98-6A52CD3BF273}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="River_Stream_01" ID="{DF3D2D0F-C76D-4EFF-A6BD-9C91C1663E7C}" ShortID="708697459">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{836158DD-C4E7-4056-AA92-3059BEA36E66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F662A6F8-008D-4048-AB98-6A52CD3BF273}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="River_Stream_01" ID="{93D25BDE-B479-40AB-9CC4-61B5112310BC}">
+											<Language>SFX</Language>
+											<AudioFile>River_Stream_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="352443663"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="River_Stream_01" ID="{93D25BDE-B479-40AB-9CC4-61B5112310BC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="River_Stream_02" ID="{FA3864C8-58F7-4957-A5F9-8A74EC9241BC}" ShortID="60081722">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{836158DD-C4E7-4056-AA92-3059BEA36E66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F662A6F8-008D-4048-AB98-6A52CD3BF273}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="River_Stream_02" ID="{7EB4439F-7380-44F5-9E29-1B960FD13D4C}">
+											<Language>SFX</Language>
+											<AudioFile>River_Stream_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="239644954"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="River_Stream_02" ID="{7EB4439F-7380-44F5-9E29-1B960FD13D4C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="River_Stream_03" ID="{A9E835F7-D2F0-49BF-A43B-F73EF4C07334}" ShortID="517255302">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{836158DD-C4E7-4056-AA92-3059BEA36E66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F662A6F8-008D-4048-AB98-6A52CD3BF273}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="River_Stream_03" ID="{ED70EADE-EB77-48B5-A582-FF6CC7E1D344}">
+											<Language>SFX</Language>
+											<AudioFile>River_Stream_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="20354922"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="River_Stream_03" ID="{ED70EADE-EB77-48B5-A582-FF6CC7E1D344}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="River_Stream_04" ID="{8A38D152-8D8B-4739-834E-96C03EA4EDA3}" ShortID="746395954">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{836158DD-C4E7-4056-AA92-3059BEA36E66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F662A6F8-008D-4048-AB98-6A52CD3BF273}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="River_Stream_04" ID="{1105F7FD-267F-4487-9A7C-A1EBA0407E1A}">
+											<Language>SFX</Language>
+											<AudioFile>River_Stream_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="261302742"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="River_Stream_04" ID="{1105F7FD-267F-4487-9A7C-A1EBA0407E1A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="River_Stream_05" ID="{2904048C-5996-433B-90D1-E48C29C015B7}" ShortID="866302621">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{836158DD-C4E7-4056-AA92-3059BEA36E66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F662A6F8-008D-4048-AB98-6A52CD3BF273}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="River_Stream_05" ID="{D92D30B5-D1BC-4160-8BC8-6D312F975772}">
+											<Language>SFX</Language>
+											<AudioFile>River_Stream_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="709195546"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="River_Stream_05" ID="{D92D30B5-D1BC-4160-8BC8-6D312F975772}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{EDFF4C94-A04C-4195-8193-3AC6DC4E57BE}"/>
+								<Position Name="" ID="{01A06D9B-A109-439B-94EF-10F8B329F956}"/>
+							</PositioningInfo>
 							<ObjectLists/>
 						</RandomSequenceContainer>
 					</ChildrenList>
